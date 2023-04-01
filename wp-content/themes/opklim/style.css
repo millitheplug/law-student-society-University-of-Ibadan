@@ -1,0 +1,130 @@
+/*
+Theme Name: opklim
+Theme URI: http://july.commonsupport.com/opklim/
+Author: tonatheme
+Author URI: https://themeforest.net/user/tonatheme
+Description: This is Opklim Business and Law Solution WordPress Theme.
+Version: 1.0.0
+License: copyright commercial
+License URI: https://themeforest.net/user/tonatheme
+Text Domain: opklim
+Tested up to: 6.0.2
+Requires PHP:7.0
+Tags: one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, rtl-language-support, sticky-post, translation-ready, microformats
+*/
+
+.wp-caption {
+	margin-bottom: 2px;
+}
+
+.wp-caption-text {
+	margin-bottom: 5px;
+}
+
+.screen-reader-text {
+	margin-bottom: 12px;
+}
+
+.gallery-caption {
+	margin-bottom: 2px;
+}
+
+.bypostauthor {
+	margin-bottom: 2px;
+}
+
+.alignleft {
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	max-width: 100%;
+}
+
+.alignright {
+	float: right !important;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	max-width: 100%;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 20px;
+}
+
+.col-md-4 .funfact-meta > i {
+	right: 27px;
+}
+
+.mycustom-pricing {
+	background-color: #090909 !important;
+}
+
+.on-hover {
+	display: none;
+	animation: fadeOut 0.5s;
+}
+
+.hver:hover .on-hover {
+	display: block;
+	animation: fadeIn 0.5s;
+}
+ul li{
+	list-style:none;
+}
+.topbar-two__right .thm-btn {
+    background-color: #e23e4e!important;
+
+}
+.team-two{
+    padding-top: 110px!important;
+}
+
+
+.mrindex .sticky .blog-one__content, .mrindex .tag-sticky-2 .blog-one__content {
+    padding: 30px;
+}
+#wp-calendar caption {
+    text-align: center!important;
+	font-weight:600;
+}
+.wp-calendar-nav {
+    background:#e0a965;
+    padding: 10px;
+    margin-top: 15px;
+}
+.wp-calendar-nav a{
+    color:#fff;
+}
+.wp-calendar-nav-next{
+	float:right;
+}
+.wp-style table tbody tr th a{
+	font-weight:400;
+}
+ .wp-block-cover-text{
+    color: #fff!important;
+}
+.wp-block-button__link {
+    color: #fff!important;
+}
+.is-style-outline .wp-block-button__link{
+    color: #222!important;
+	border-color:#222!important;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+.post-share .tag-list a {
+    margin-bottom: 3px;
+}
+
+.site-footer #wp-calendar caption {
+    color: #fff;
+}
+.paginate_links{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.site-footer {
+    padding-top: 50px;
+}

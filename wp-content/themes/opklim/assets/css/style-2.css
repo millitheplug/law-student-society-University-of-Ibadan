@@ -1,0 +1,280 @@
+.service-details-section {
+	position: relative;
+	padding: 100px 0 70px;
+}
+
+.sidebar__brochur {
+	position: relative;
+}
+
+.sidebar__brochur ul {
+	padding-left: 0;
+}
+
+.sidebar__brochur li {
+	position: relative;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	list-style: none;
+	color: #333;
+}
+
+.sidebar__brochur li a {
+	color: #333;
+}
+
+.sidebar__brochur li img {
+	margin-right: 15px;
+}
+
+.sidebar__contact-form {
+	position: relative;
+}
+
+.sidebar__contact-form input {
+	font-size: 14px;
+	color: #666;
+	font-weight: 300;
+	height: 50px;
+	border: 0;
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
+}
+
+.sidebar__contact-form textarea:focus,
+.sidebar__contact-form input:focus {
+    outline: none;
+}
+
+.sidebar__contact-form textarea {
+	font-size: 14px;
+	color: #666;
+	font-weight: 300;
+	height: 130px;
+	border: 0;
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 15px;
+}
+
+.sidebar__contact-form .thm-btn {
+	width: 100%;
+}
+
+
+.services-single-post {
+	position: relative;
+	margin-bottom: 50px;
+	max-width: 780px;
+}
+
+.services-single-post .image-one {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.services-single-post h3 {
+	font-size: 32px;
+	font-weight: 700;
+	color: #333;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+
+.services-single-post .text {
+	margin-bottom: 30px;
+}
+
+.services-single-post .text p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.services-single-post .image-box {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.services-single-post .image-box .image {
+	max-width: 425px;
+	margin-bottom: 30px;
+}
+
+.services-single-post .image-box .image img {
+	width: 100%;
+}
+
+.services-single-post h4 {
+	font-size: 24px;
+	color: #333;
+}
+
+.services-single-post h5 {
+	font-size: 16px;
+	font-style: italic;
+	color: #aaa;
+	margin-bottom: 15px;
+}
+
+.services-single-post ul.list {
+	margin-bottom: 40px;
+	padding-left: 0;
+}
+
+.services-single-post ul.list li {
+	font-size: 18px;
+	font-weight: 700;
+	color: #333;
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.services-single-post ul.list li:last-child {
+	margin-bottom: 0;
+}
+
+.services-single-post ul.list li i {
+	margin-right: 10px;
+	color: #e0a965;
+}
+
+.service-details-section .block-title {
+    margin-bottom: 40px;
+}
+
+.service-details-section .block-title__title {
+    font-size: 32px;
+}
+
+.service-details-section .sidebar__title {
+	color: #e23e4e;
+}
+
+
+
+/* Main Footer */
+
+.footer-widget__logo {
+    transform: translate(0);
+    margin-bottom: 20px;
+}
+
+.footer-widget.about-widget {}
+
+.footer-widget.about-widget p.footer-widget__text {
+    margin-bottom: 25px;
+}
+
+.footer-widget__title {
+    margin-bottom: 20px;
+}
+
+
+.contact-widget.footer-widget p {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-widget.footer-widget p i {
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+.footer-widget .map {
+    margin-top: 30px;
+}
+
+.site-footer__bottom .container {
+    justify-content: center;
+}
+
+.footer-widget__links li + li {
+    margin-top: 2px;
+}
+
+.contact-one .wrapper-box {
+    position: relative;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+    padding: 80px 100px 30px;
+    background: #fff;
+	z-index: 1;
+    margin-bottom: -10px!important;
+}
+
+@media screen (max-width: 991px) {
+	.contact-one .wrapper-box {
+		padding: 80px 30px 30px;
+	} 
+}
+
+.contact-one {
+    margin-bottom: -30px;
+    padding-bottom: 0;
+}
+
+.contact-one__info {
+    margin-bottom: 50px;
+}
+
+.contact-one__info-single {
+	margin-bottom: 30px;
+}
+
+.contact-one__info-single {
+    position: relative;
+    text-align: center;
+    background: #fcfcfc;
+    padding: 25px;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-one__info-single .icon {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+    background: #ececec;
+    border-radius: 50%;
+    /* padding: 20px 30px; */
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    line-height: 70px;
+}
+
+.contact-one .wrapper-box:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%);
+    background: #e0a965;
+}
+
+
+.contact-one .wrapper-box:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    background: #e0a965;
+}
+
+.contact-one__info-single .icon img{
+	width:35px;
+}
+
+
+
