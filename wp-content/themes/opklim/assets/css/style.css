@@ -2717,10 +2717,10 @@ ul.pagination>li .current {
 }
 .testimonials-one__title {
   margin: 0px;
-  color: #f4f4f4;
-  font-size: 80px;
-  font-weight: 700;
-  /* position: absolute; */
+  color:black;
+  font-size: 65px;
+  font-weight: 500;
+  /* position: unset; */
   bottom: 95%;
   left: 0;
   text-align: center;
@@ -2730,7 +2730,7 @@ ul.pagination>li .current {
 }
 @media (max-width: 991px) {
   .testimonials-one__title {
-    display: none;
+    display: inline-block;
   }
 }
 .testimonials-one .inner-container {
